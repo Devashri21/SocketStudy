@@ -1,13 +1,16 @@
-# Ex.No:1a  			Study of Socket Programming
+# EX:NO:1A  			
+## STUDY OF SOCKET PROGRAMMING
+## NAME:   DEVASHRI.S
+## REG NO: 212224040063
 
-## Aim: 
+## AIM: 
 To perform a study on Socket Programming
-## Introduction:
+## INTRODUCTION:
 
  	Socket programming is a crucial aspect of network communication, allowing for data exchange between computers over a network. It forms the backbone of various networked applications, enabling communication between clients and servers. This study explores the fundamental concepts of socket programming, its use cases, and provides a practical example to demonstrate its implementation.
-## Understanding Socket Programming:
+## UNDERSTANDING SOCKET PROGRAMMING:
 	Socket programming involves the use of sockets, which serve as endpoints for communication. A socket is identified by an IP address and a port number, and it facilitates data transfer between a client and a server. The two main types of sockets are Stream Sockets, which provide a reliable, connection-oriented communication, and Datagram Sockets, which are connectionless and suitable for scenarios where reliability is less critical.
-## Key Concepts in Socket Programming:
+## KEY CONCEPTS IN SOCKET PROGRAMMING:
 1.Sockets
 •	A socket is a software representation of a communication endpoint in a network.
 •	It is identified by an IP address and a port number.
@@ -31,19 +34,19 @@ To perform a study on Socket Programming
 •	Socket programming involves a set of functions provided by the operating system or programming language to create, bind, listen, accept, connect, send, and receive data through sockets.
 •	Examples of functions include socket(), bind(), listen(), accept(), connect(), send(), and recv().
 
-## Server-Side Operations:
+## SERVER-SIDE OPERATIONS:
 
 •	Servers create a socket using socket() and bind it to a specific IP address and port using bind().
 •	They then listen for incoming connections with listen() and accept connections with accept().
 •	Once a connection is establi
 •	shed, servers can send and receive data using send() and recv().
 
-## Client –Server Operations
+## CLIENT-SERVER OPERATIONS:
 
 Clients create a socket using socket() and connect to a server using connect().
 After establishing a connection, clients can send and receive data using send() and recv().
 
-## Use Cases of Socket Programming:
+## USE CASES OF SOCKET PROGRAMMING:
 Socket programming finds applications in various domains, including web development, file transfer protocols, online gaming, and real-time communication. It is the foundation for protocols like HTTP, FTP, and SMTP, which power the internet. Socket programming enables the development of both server and client applications, facilitating the exchange of information between devices in a networked environment.
 ## Example Use Cases:
 
@@ -53,6 +56,15 @@ Socket programming finds applications in various domains, including web developm
 4.	Networked Games: Online multiplayer games rely on socket programming to facilitate communication between game clients and servers.
 5.	RPC mechanisms: which allow processes to execute code on a remote server, often use socket programming for communication.
 
+SERVER:
+![image](https://github.com/user-attachments/assets/b359d7ef-be21-4e00-a8be-05b166e1a88f)
+CLIENT:
+![image](https://github.com/user-attachments/assets/41fd35e7-2cfd-4bbf-8819-ffe3f730a796)
+## OUTPUT:
+## SERVER:
+![image](https://github.com/user-attachments/assets/7d6f084d-b5dd-4deb-ba16-62aa7cc79e7f)
 
-## Result:
+## CLIENT:
+![image](https://github.com/user-attachments/assets/34288f66-bbd7-4edb-a6d4-92cd5c4273d0)
+## RESULT:
 Thus the study of Socket Programming Completed Successfully
